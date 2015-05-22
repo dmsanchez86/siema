@@ -7,47 +7,47 @@ scotchApp.config(['$routeProvider', function($routeProvider) {
 
         // route for the home page
         .when('/', {
-            templateUrl : 'templates/step1.html',
+            templateUrl : '/siema/templates/step1.html',
              controller  : 'main'
         })
         
         .when('/s2', {
-            templateUrl : 'templates/step2.html',
+            templateUrl : '/siema/templates/step2.html',
              controller  : 'main'
         })
         
         .when('/s3', {
-            templateUrl : 'templates/step3.html',
+            templateUrl : '/siema/templates/step3.html',
              controller  : 'main'
         })
         
         .when('/s4', {
-            templateUrl : 'templates/step4.html',
+            templateUrl : '/siema/templates/step4.html',
              controller  : 'main'
         })
         
         .when('/s5', {
-            templateUrl : 'templates/step5.html',
+            templateUrl : '/siema/templates/step5.html',
              controller  : 'main'
         })
         
         .when('/s6', {
-            templateUrl : 'templates/step6.html',
+            templateUrl : '/siema/templates/step6.html',
              controller  : 'main'
         })
         
         .when('/s7', {
-            templateUrl : 'templates/step7.html',
+            templateUrl : '/siema/templates/step7.html',
              controller  : 'main'
         })
         
         .when('/s8', {
-            templateUrl : 'templates/step8.html',
+            templateUrl : '/siema/templates/step8.html',
              controller  : 'main'
         })
         
         .when('/s9', {
-            templateUrl : 'templates/step9.html',
+            templateUrl : '/siema/templates/step9.html',
              controller  : 'main'
         })
         
