@@ -96,7 +96,7 @@ scotchApp.controller('main', function($scope) {
     $('#btn_login').unbind('click').click(function(){
          $('.loader').fadeIn(1000);
          setTimeout(function(){Materialize.toast('Bienvenido / Welcome',2000,'rounded',function(){
-             window.location = "/#/s2";
+             window.location = "/siema/#/s2";
          })},1000);
     });
     
