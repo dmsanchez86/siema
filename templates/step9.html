@@ -1,0 +1,252 @@
+
+        
+        <style type="text/css">
+            span.title-detail {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+span.almacen-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.direction-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.telephone-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.frecuencia-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+span.title-detail {
+    color: rgb(102, 102, 102);
+}
+
+span.detail-label {
+    margin-top: -2px;
+}
+        </style>
+        
+        <div data-role="page" data-title="Login" data-theme="b" id="login">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='a'>
+               <div class="f_l btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out2" class="button-collapse1 show-on-large"><i class="mdi-navigation-menu"></i></a>
+                </div>
+                
+                <h1 style="margin:0; opacity: 0">Siema Mobile</h1>
+                
+                <div class="f_r btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out1" class="button-collapse2 show-on-large"><i class="mdi-navigation-more-vert"></i></a>
+                </div>
+            </div>
+            <div data-role="content" >
+                
+                 <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="3"><span class="text-center title-table-gestion">Resumen de Gestión</span</th>
+                            </tr>
+                          </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="input-field col s12">
+                                        <select>
+                                          <option value="" disabled selected>Resumen Pedido</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                        </select>
+                                      </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 1.5rem;padding-right: 1rem">
+                                    <div class="area-detail">
+                                      <span class="detail-label title-detail">
+                                          Ejecutivo de Ventas
+                                      </span>
+                                      <span class="detail-label almacen-id" style="color: black;">
+                                          4704 - Fabian Jimenez Rodriguez
+                                      </span>
+                                      <span class="detail-label direction-id">
+                                          Fecha
+                                      </span>
+                                      <div class="input-field col s12">
+                                      <input type="date" id="date" class="datepicker" placeholder="Fecha / Date">
+                                    </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="padding: 0 1.5rem 1rem" data-field="id" colspan="3"><button class="btn waves-effect waves-light orange" type="submit" name="action" style="margin-top: 0">Mover Rutas</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial-2 move-clients">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="4">
+                                    <span class="text-center title-table-gestion">Total Pedidos</span>
+                                </th>
+                            </tr>
+                          </thead>
+                            <tbody>
+                                <tr class="separator"  style="padding: 0 2rem">
+                                  <td
+                                      <span style="font-weight:bold">Cantidad de Pedidos</span>
+                                  </td>
+                                  <td>
+                                      <span style="font-weight:bold">15</span>
+                                  </td>
+                                </tr>
+                                <tr class="separator">
+                                  <td
+                                      <span style="font-weight:bold">Pendiente</span>
+                                  </td>
+                                  <td>
+                                      <span style="font-weight:bold">7</span>
+                                  </td>
+                                </tr>
+                                <tr class="separator">
+                                  <td
+                                      <span style="font-weight:bold">Pedido</span>
+                                  </td>
+                                  <td>
+                                      <span style="font-weight:bold">$188,888,888</span>
+                                  </td>
+                                </tr>
+                                <tr class="separator">
+                                  <td
+                                      <span style="font-weight:bold">Facturado</span>
+                                  </td>
+                                  <td>
+                                      <span style="font-weight:bold">$145,856,200</span>
+                                  </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial-2 move-clients">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="4">
+                                    <span class="text-center title-table-gestion">Detalle Pedido</span>
+                                </th>
+                            </tr>
+                          </thead>
+                            <tbody style="padding-bottom:1rem">
+                                <tr>
+                                    <th colspan="2">
+                                        <span style="font-weight: bold;color: gray;">7584215 SUAREZ CARVAJAL JESUS</span>
+                                    </th>
+                                </tr>
+                                <tr class="separator"  style="padding: 0 2rem">
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Pedido</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$45,555,555</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Facturado</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$49,466,782</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Pendiente</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>No</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">
+                                        <span style="font-weight: bold;color: gray;">7584215 SUAREZ CARVAJAL JESUS</span>
+                                    </th>
+                                </tr>
+                                <tr class="separator"  style="padding: 0 2rem">
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Pedido</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$45,555,555</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Facturado</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$49,466,782</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Pendiente</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>No</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">
+                                        <span style="font-weight: bold;color: gray;">7584215 SUAREZ CARVAJAL JESUS</span>
+                                    </th>
+                                </tr>
+                                <tr class="separator"  style="padding: 0 2rem">
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Pedido</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$45,555,555</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem">
+                                      <span style="font-weight:bold">Facturado</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>$49,466,782</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0 1rem .5rem">
+                                      <span style="font-weight:bold">Pendiente</span>
+                                  </td>
+                                  <td style="padding:0 1rem">
+                                      <span>No</span>
+                                  </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                <a style="z-index: 0" href="/#/s8" class="btn-floating btn-large waves-effect waves-light orange f_l tooltipped" data-position="right" data-delay="10" data-tooltip="Atras / Before"><i class="mdi-content-forward"></i></a>
+                <a style="z-index: 0;" href="/#/" class="btn-floating btn-large waves-effect waves-light orange f_r tooltipped" data-position="left" data-delay="10" data-tooltip="Inicio / Home"><i class="mdi-action-home"></i></a>
+            </div>
+        </div>

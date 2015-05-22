@@ -1,0 +1,74 @@
+
+        
+        <div data-role="page" data-title="Login" data-theme="b" id="login">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='a'>
+               <div class="f_l btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out2" class="button-collapse1 show-on-large"><i class="mdi-navigation-menu"></i></a>
+                </div>
+                
+                <h1 style="margin:0; opacity: 0">Siema Mobile</h1>
+                
+                <div class="f_r btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out1" class="button-collapse2 show-on-large"><i class="mdi-navigation-more-vert"></i></a>
+                </div>
+            </div>
+            <div data-role="content" >
+                
+                 <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="3"><span class="text-center title-table-gestion">Extra Ruta</span</th>
+                            </tr>
+                          </thead>
+                            <tbody>
+                            <tr>
+                              <td colspan="3">
+                                  <div class="search-form">
+                                    <div class="row">
+                                      <div class="input-field col s9">
+                                        <input placeholder="Buscar Cliente / Search Client" id="first_name" type="text" class="validate">
+                                      </div>
+                                      <div class="col s3">
+                                          <a id="btn_search" class="btn-floating btn_search_icon btn-large waves-effect waves-light red"><i class="mdi-action-search"></i></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </td>
+                            </tr>
+                            <tr class="h_r">
+                                <td colspan="3" style="padding-top: 0">
+                                    <div class="input-field col s12">
+                                        <select>
+                                          <option value="" disabled selected>Motivo de cambio de ruta</option>
+                                          <option value="1">Option 1</option>
+                                          <option value="2">Option 2</option>
+                                          <option value="3">Option 3</option>
+                                        </select>
+                                      </div>
+                                </td>
+                            </tr>
+                            <tr  class="h_r">
+                                <td colspan="3">
+                                    <div class="input-field col s12">
+                                      <input type="date" id="date" class="datepicker" placeholder="Fecha / Date">
+                                      <label class="active" for="date">Fecha:</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr  class="h_r">
+                                <td colspan="3">
+                                    <button class="btn waves-effect waves-light orange" type="submit" name="action" id="btn_save">Guardar</button>
+                                </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                      </div>
+                      
+                    </div>
+                <a style="z-index: 0" href="/#/s3" class="btn-floating btn-large waves-effect waves-light orange f_l tooltipped" data-position="right" data-delay="10" data-tooltip="Atras / Before"><i class="mdi-content-forward"></i></a>
+                <a style="z-index: 0" href="/#/s5" class="btn-floating btn-large waves-effect waves-light orange f_r tooltipped" data-position="left" data-delay="10" data-tooltip="Siguiente / Next"><i class="mdi-content-forward"></i></a>
+            </div>
+        </div>

@@ -1,0 +1,321 @@
+
+        <style type="text/css">
+            
+table.table-gestion-comercial {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: -1px;
+}
+
+.head-table{
+background: rgb(237, 237, 237);
+}
+
+span.title-detail {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+span.almacen-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.direction-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.telephone-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+}
+
+span.frecuencia-id {
+    width: 100%;   display: inline-block;   font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+span.title-detail {
+    color: rgb(102, 102, 102);
+}
+
+span.detail-label {
+    margin-top: -2px;
+}
+
+.col.s6.cell-btn.btn-money a i {
+  background: rgb(242, 103, 0);
+}
+.col.s6.cell-btn.btn-cancel a i {
+  background: rgb(237, 237, 237);
+}
+.col.s6.cell-btn.btn-check a i {
+  background: rgb(237, 237, 237);
+}
+.col.s6.cell-btn.btn-add a i {
+  background: rgb(237, 237, 237);
+  
+}
+
+.col.s6.cell-btn a {
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+}
+
+.col.s6.cell-btn a i {}
+
+.col.s6.cell-btn a i {
+    font-size: 29px;
+      line-height: 46.5px;
+}
+
+.btn_search_icon i {
+  font-size: 28px;
+    background: rgb(242, 103, 0);
+}
+
+span.title-row {
+    padding-left: 24px;
+    font-size: 16px;
+    color: rgb(111, 106, 102);
+}
+
+span.text-center.title-table-gestion {
+    font-size: 17px;
+}
+
+.separator {
+  border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.input_search {
+  border-bottom: 1px solid rgb(237, 237, 237) !Important;
+}
+
+        </style>
+        
+        <div data-role="page" data-title="Login" data-theme="b" id="login">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='a'>
+               <div class="f_l btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out2" class="button-collapse1 show-on-large"><i class="mdi-navigation-menu"></i></a>
+                </div>
+                
+                <h1 style="margin:0; opacity: 0">Siema Mobile</h1>
+                
+                <div class="f_r btn_nav">
+                    <a href="#" style="opacity: 0" data-activates="slide-out1" class="button-collapse2 show-on-large"><i class="mdi-navigation-more-vert"></i></a>
+                </div>
+            </div>
+            
+            
+
+            <div data-role="content" >
+                <!-- empieza el contenido aca -->
+                    <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="3"><span class="text-center title-table-gestion">Gestion Comercial</span></th>
+                            </tr>
+                          </thead>
+                            <tbody><tr>
+                              <td><span class="title-row">Programadas:</span></td>
+                              <td>17</td>
+                            </tr>
+                            <tr>
+                              <td><span class="title-row">Realizadas:</span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td><span class="title-row">Efectivas:</span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td><span class="title-row">Canceladas:</span></td>
+                              <td>0</td>
+                            </tr>
+                            <tr>
+                              <td><span class="title-row">Pendientes:</span></td>
+                              <td>17</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div> 
+                    
+                    <div class="row">
+                      <div class="col s12">
+                        <table class="table-gestion-comercial-2">
+                          <thead class="head-table">
+                            <tr>
+                                <th data-field="id" colspan="3">
+                                    &nbsp;
+                                </th>
+                            </tr>
+                          </thead>
+                            <tbody>
+                              <tr>
+                                  <td colspan="2" style="padding: 0">
+                                      <div class="search-form">
+                                        <div class="row">
+                                          <div class="input-field col s9">
+                                            <input placeholder="" class="input_search" id="first_name" type="text" class="validate">
+                                          </div>
+                                          <div class="col s3">
+                                              <a style="margin-top: 5%" class="btn-floating btn-large btn_search_icon waves-effect waves-light red"><i class="mdi-action-search"></i></a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </td>
+                                </tr>
+                                <tr class="separator">
+                                  <td colspan="12">
+                                    <div class="row">
+                                      <div class="col s6">
+                                        <div class="row">
+                                            <div class="col s6 cell-btn btn-money">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-editor-attach-money"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-cancel">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-navigation-close"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-check">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-navigation-check"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-add">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col s6">
+                                        <div class="area-detail">
+                                            <span class="detail-label title-detail">
+                                                75068584 SUAREZ CARVAJAL JESUS
+                                            </span>
+                                            <span class="detail-label almacen-id">
+                                                Almacen: 000
+                                            </span>
+                                            <span class="detail-label direction-id">
+                                                Dir CR. 43B No. 36 - 19 LC.3
+                                            </span>
+                                            <span class="detail-label telephone-id">
+                                                Telefono: 315 724 8686
+                                            </span>
+                                            <span class="detail-label frecuencia-id">
+                                                Frecuencia: 3T
+                                            </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="row">
+                                      <div class="col s6">
+                                        <div class="row">
+                                            <div class="col s6 cell-btn btn-money">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-editor-attach-money"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-cancel">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-navigation-close"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-check">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-navigation-check"></i></a>
+                                            </div>
+                                            <div class="col s6 cell-btn btn-add">
+                                                <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="col s6">
+                                        <div class="area-detail">
+                                            <span class="detail-label title-detail">
+                                                75068584 SUAREZ CARVAJAL JESUS
+                                            </span>
+                                            <span class="detail-label almacen-id">
+                                                Almacen: 000
+                                            </span>
+                                            <span class="detail-label direction-id">
+                                                Dir CR. 43B No. 36 - 19 LC.3
+                                            </span>
+                                            <span class="detail-label telephone-id">
+                                                Telefono: 315 724 8686
+                                            </span>
+                                            <span class="detail-label frecuencia-id">
+                                                Frecuencia: 3T
+                                            </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+            
+                <ul id="slide-out2" class="side-nav">
+                <li>
+                    <div class="m_l">
+                        <div class="p_h">
+                            <a href="step2.html" class="btn-floating btn-large waves-effect waves-light orange f_l tooltipped" data-position="right" data-delay="50" data-tooltip="Usuario / User"><i class="mdi-action-account-circle prefix"></i></a>
+                            <a href="step2.html" class="btn-floating btn-large waves-effect waves-light orange f_r tooltipped" data-position="bottom" data-delay="50" data-tooltip="Subir / Upload"><i class="mdi-image-camera-alt"></i></a>
+                        </div>
+                        <div class="p_d">
+                            <div>
+                                <i class="mdi-action-account-circle prefix"></i><div><span class="n">Fabian Jimenez Rodriguez</span><br><span>47 47 47 47</span></div>
+                                <i class="mdi-action-room prefix"></i><div><span>Cedi Cali Valle (47) 47 47 47 47</span></div>
+                            </div>
+                            
+                        </div>
+                        <div class="p_c">
+                            <div>
+                            <ul>
+                                <li><a href="#" class="active">Gestión Comercial</a></li>
+                                <li><a href="#">Crear Ruta Extra</a></li>
+                                <li><a href="#">Mover Ruta</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="p_c">
+                            <div>
+                            <ul>
+                                <li><a href="#" class="active">Consultas</a></li>
+                                <li><a href="#">Existentes</a></li>
+                                <li>
+                                    <ul class="collapsible" data-collapsible="accordion">
+                                        <li>
+                                          <div class="collapsible-header">Indicadores <b class="mdi-action-trending-neutral f_r"></b></div>
+                                          <div class="collapsible-body">
+                                              <ul>
+                                                  <li><a href="#">Indicadores de Gestión</a></li>
+                                                  <li><a href="#">Resumen de Gestión</a></li>
+                                              </ul>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            
+              <ul id="slide-out1" class="side-nav">
+                <li>
+                    <div class="m_l">
+                        <div class="p_h">
+                        
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#!">Second Sidebar Link</a></li>
+              </ul>
+            
+                <!-- empieza el contenido aca -->
+                <a href="/#/s2" class="btn-floating btn-large waves-effect waves-light orange f_l tooltipped" data-position="right" data-delay="10" data-tooltip="Atras / Before"><i class="mdi-content-forward"></i></a>
+                <a href="/#/s4" class="btn-floating btn-large waves-effect waves-light orange f_r tooltipped" data-position="left" data-delay="10" data-tooltip="Siguiente / Next"><i class="mdi-content-forward"></i></a>
+            </div>
+        </div>
